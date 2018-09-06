@@ -7,7 +7,7 @@ All solutions are to be completed in your **"Python Warm-Up"** project in **repl
 
 
 ## SECTION 1
-Complete **4** problems from this section.
+Complete **5** problems from this section.
 
 
 ### 1.1 madlib()
