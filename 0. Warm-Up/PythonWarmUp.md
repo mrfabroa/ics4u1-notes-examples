@@ -6,7 +6,7 @@ Complete the required number of problems for each section.  All solutions must b
 All solutions are to be completed in your **"Python Warm-Up"** project in **repl.it**
 
 
-##SECTION 1
+## SECTION 1
 Complete **4** problems from this section.
 
 
