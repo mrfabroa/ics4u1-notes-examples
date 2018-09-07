@@ -77,7 +77,9 @@ Roll      Die 1     Die 2
 Complete **5** problems from this section.
 
 #### Notes
+* [1.7 Built-In Functions and Libraries](https://docs.google.com/document/d/1N37lqdZqxQ8_0BLbhmZij2o82PZ2pM7lA9vnlsB_uFs/edit?usp=sharing)
 * [Processing Strings](https://docs.google.com/document/d/1w3or5c0l7iF9AstbHE2gwshSiLrwnBH4o6XOmw84NjI/edit?usp=sharing)
+* 
 
 ### 2.1 string_times(str, num)
 Write a function string_times(str, num) where given a string `str`, return a larger string that is `num` copies of the original string. 
@@ -87,4 +89,22 @@ Write a function string_times(str, num) where given a string `str`, return a lar
 `string_times('Hi', 2)` returns `'HiHi'`  
 `string_times('Hi', 3)` returns `'HiHiHi'`  
 `string_times('Hi', 1)` returns `'Hi'`
+
+
+### 2.2 sortaPi(n)
+Write a function `sortaPi(n)` that approximates the value of  by summing the terms of this series:  4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 … where `n` represents the number of terms to sum, and then return the sum of the first `n` terms of this series. You can subtract the approximation from the value of math.pi to see how accurate it is. 
+
+### 2.3 wordPlay(word)
+Write a function `wordplay(word)` program that outputs the parameter string `word` prints it out in various ways like in the example below.
+
+##### Example
+`wordPlay("Canada")` would output:  
+```
+Canada    Canada
+Canad      anada
+Cana        nada
+Can          ada
+Ca            da
+C              a
+```
 
