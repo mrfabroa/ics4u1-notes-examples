@@ -6,9 +6,16 @@ Complete the required number of problems for each section.  All solutions must b
 All solutions are to be completed in your **"Python Warm-Up"** project in **repl.it**
 
 
-## SECTION 1
-Complete **4** problems from this section.
+## SECTION 1 - Simple Programs
+Complete **5** problems from this section.
 
+####Notes
+* [1.3 Printing and Comments](https://docs.google.com/document/d/1sjBpR6uY6Ql_1WsHPlO7bNg9fcVrcBwgXCBbapNlLqk/edit?usp=sharing)
+* [1.4 Variables and Assignments](https://docs.google.com/document/d/1shqagy8wsR92B273K0uhtGXtroicG-1ZBqHFqb7z8Xc/edit?usp=sharing)
+* [1.5 Data Conversions and User Input](https://docs.google.com/document/d/1cM1GOW8rl7YLr1NSzpxw7vUxxz1TGcq6VqdZXK6DhAU/edit?usp=sharing)
+* [1.7 Built-In Functions and Libraries](https://docs.google.com/document/d/1N37lqdZqxQ8_0BLbhmZij2o82PZ2pM7lA9vnlsB_uFs/edit?usp=sharing)
+* [String Formatting](https://docs.google.com/document/d/1uME8sZ-GXVJZgvQYHIAIeTO0QPHEV5KiGm68FinDyYE/edit?usp=sharing)
+* [Processing Strings](https://docs.google.com/document/d/1w3or5c0l7iF9AstbHE2gwshSiLrwnBH4o6XOmw84NjI/edit?usp=sharing)
 
 ### 1.1 madlib()
 Write a function `madlib()` that prompts the user for a noun, verb (past tense), adjective, and noun and prints out a sentence using these values. 
@@ -62,6 +69,21 @@ Roll      Die 1     Die 2
 3           1           4
 4           4           3
 5           3           5
-```
+```  
+  
+  
+## SECTION 2 - Repetition
+Complete **5** problems from this section.
 
+#### Notes
+* [Processing Strings](https://docs.google.com/document/d/1w3or5c0l7iF9AstbHE2gwshSiLrwnBH4o6XOmw84NjI/edit?usp=sharing)
+
+### 2.1 string_times(str, num)
+Write a function string_times(str, num) where given a string `str`, return a larger string that is `num` copies of the original string. 
+
+##### Example:
+
+`string_times('Hi', 2)` returns `'HiHi'`  
+`string_times('Hi', 3)` returns `'HiHiHi'`  
+`string_times('Hi', 1)` returns `'Hi'`
 
