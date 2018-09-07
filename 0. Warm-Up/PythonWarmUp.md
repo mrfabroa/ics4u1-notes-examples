@@ -7,6 +7,7 @@ All solutions are to be completed in your **"Python Warm-Up"** project in **repl
 
 
 ## SECTION 1 - Simple Programs
+
 Complete **5** problems from this section.
 
 ####Notes
