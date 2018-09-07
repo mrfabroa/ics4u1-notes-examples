@@ -100,11 +100,11 @@ Write a function `wordplay(word)` program that outputs the parameter string `wor
 ##### Example
 `wordPlay("Canada")` would output:  
 ```
-Canada    Canada
-Canad      anada
-Cana        nada
-Can          ada
-Ca            da
-C              a
+Canada    Canada      Canada    C-a-n-a-d-a
+Canad      anada      anada      C-a-n-a-d
+Cana        nada      nada        C-a-n-a
+Can          ada      ada          C-a-n
+Ca            da      da            C-a
+C              a      a              C
 ```
 
