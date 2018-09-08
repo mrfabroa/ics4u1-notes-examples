@@ -10,7 +10,7 @@ All solutions are to be completed in your **"Python Warm-Up"** project in **repl
 
 Complete **5** problems from this section.
 
-####Notes
+#### Notes
 * [1.3 Printing and Comments](https://docs.google.com/document/d/1sjBpR6uY6Ql_1WsHPlO7bNg9fcVrcBwgXCBbapNlLqk/edit?usp=sharing)
 * [1.4 Variables and Assignments](https://docs.google.com/document/d/1shqagy8wsR92B273K0uhtGXtroicG-1ZBqHFqb7z8Xc/edit?usp=sharing)
 * [1.5 Data Conversions and User Input](https://docs.google.com/document/d/1cM1GOW8rl7YLr1NSzpxw7vUxxz1TGcq6VqdZXK6DhAU/edit?usp=sharing)
@@ -79,7 +79,11 @@ Complete **5** problems from this section.
 #### Notes
 * [1.7 Built-In Functions and Libraries](https://docs.google.com/document/d/1N37lqdZqxQ8_0BLbhmZij2o82PZ2pM7lA9vnlsB_uFs/edit?usp=sharing)
 * [Processing Strings](https://docs.google.com/document/d/1w3or5c0l7iF9AstbHE2gwshSiLrwnBH4o6XOmw84NjI/edit?usp=sharing)
-* 
+* [2.1 Boolean Values and Expressions](https://docs.google.com/document/d/1JEM_Xokqqrf3PmunijHi_e5aMqXRboDOM8DbuOE4gkk/edit?usp=sharing)
+* [2.2 If Statements](https://docs.google.com/document/d/1vDTfwkYf7QKFeGoljO2YzlThSTbMxE-Ud9kl4OX6rX4/edit?usp=sharing)
+* [2.3 Logical Operators](https://docs.google.com/document/d/1Jq6AX44c8bIE0C6ySmAkMzTi_PbOxrMlafpHEWhdqEM/edit?usp=sharing)
+* [2.5 For Loops](https://docs.google.com/document/d/15_f7xW41qNPyQEA7C3sI67g1i7NNbaZejS1G2N5hxgI/edit?usp=sharing)
+* [2.6 Conditional Loops](https://docs.google.com/document/d/1u9JC0TzQvlmGD3HAnxRl82LcBuEVn5NzPjJ1HqdUmKQ/edit?usp=sharing)
 
 ### 2.1 string_times(str, num)
 Write a function string_times(str, num) where given a string `str`, return a larger string that is `num` copies of the original string. 
@@ -108,3 +112,34 @@ Ca            da      da            C-a
 C              a      a              C
 ```
 
+
+### 2.4 sumChart(n)
+Write a function sumChart(n) that simulates the rolling of a pair of die by randomly generating two numbers between 1 and 6 and then calculates the sum of each roll.  Use string formatting to output the results of `n` rolls in a formatted table like the one below:   
+```
+Roll		Die 1		Die 2		Sum
+---------------------------------------
+1		    3		    5         8
+2		    2		    6         8
+3		    1		    4         5
+4		    4		    3         7
+5		    3		    5         8
+```
+
+### 2.5 strExplosion(word)
+Write a function `strExplosion(word)`, given a non-empty string `word` like "Code",  return a string like `"CCoCodCode"`.
+
+##### Examples:
+`strExplosion('Code')` returns `'CCoCodCode'`  
+`strExplosion('abc')` returns `'aababc'`  
+`strExplosion('ab')` returns `'aab'` 
+
+### 2.6 ratRace(r1, r2) 
+Write a function `ratRace(rw, rt)` where parameters rw1 is the weight of a rat at the beginning of an experiment. The parameter rt is the rate that the rat's weight is expected to increase each week (for example, 4 percent per week). Return how many weeks it would take for the weight of the rat to become 25 percent heavier than it was originally.
+
+### 2.7 tripleCount(s)
+A "triple" in a string parameter `s` is a character appearing three times in a row. Write a function `tripleCount(s)` that returns the number of triples in the given string `s`. 
+
+##### Examples
+`tripleCount("abcXXXabc")` return `1`  
+`tripleCount("xxxabyyyycd")` → `3`  
+`tripleCount("a")` returns `0`  s
