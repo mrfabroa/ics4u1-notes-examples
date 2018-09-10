@@ -142,4 +142,21 @@ A "triple" in a string parameter `s` is a character appearing three times in a r
 ##### Examples
 `tripleCount("abcXXXabc")` return `1`  
 `tripleCount("xxxabyyyycd")` → `3`  
-`tripleCount("a")` returns `0`  s
+`tripleCount("a")` returns `0`
+
+
+## Section 3 - Selection & Repetition
+Complete **5** problems from this section.
+
+##### Notes:
+* [2.1 Boolean Values and Expressions](https://docs.google.com/document/d/1JEM_Xokqqrf3PmunijHi_e5aMqXRboDOM8DbuOE4gkk/edit?usp=sharing)
+* [2.2 If Statements](https://docs.google.com/document/d/1vDTfwkYf7QKFeGoljO2YzlThSTbMxE-Ud9kl4OX6rX4/edit?usp=sharing)
+* [2.3 Logical Operators](https://docs.google.com/document/d/1Jq6AX44c8bIE0C6ySmAkMzTi_PbOxrMlafpHEWhdqEM/edit?usp=sharing)
+* [2.5 For Loops](https://docs.google.com/document/d/15_f7xW41qNPyQEA7C3sI67g1i7NNbaZejS1G2N5hxgI/edit?usp=sharing)
+* [2.6 Conditional Loops](https://docs.google.com/document/d/1u9JC0TzQvlmGD3HAnxRl82LcBuEVn5NzPjJ1HqdUmKQ/edit?usp=sharing)
+
+
+### 3.1 babysitter_pay(startHour, startMin, endHour, endMin)
+A babysitter charges $2.50 an hour until 9:00 PM when the rate drops to $1.75 an hour (the children are in bed). Write a function `babysitter_pay(startHour, startMin, endHour, endMin)` that takes parameters starting time and ending time in hours and minutes and calculates the total babysitting bill. You may assume that the starting and ending times are in a single 24 hour period. Partial hours should be appropriately prorated. 
+
+
