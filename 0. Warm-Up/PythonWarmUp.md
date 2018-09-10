@@ -176,3 +176,11 @@ Given a `day` of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolea
 `alarmClock(1, False)` returns `'7:00'`
 `alarmClock(5, False)` returns `'7:00'`
 `alarmClock(0, False)` returns `'10:00'`
+
+### 3.4 end_other(a, b)
+Given two strings `a` and `b`, return True if either of the strings appears at the very end of the other string, ignoring upper/lower case differences (in other words, the computation should not be "case sensitive"). Note: s.lower() returns the lowercase version of a string.
+
+#### Example
+`end_other('Hiabc', 'abc')` returns `True`
+`end_other('AbC', 'HiaBc')` returns `True`
+`end_other('abc', 'abXabc')` returns `True`
