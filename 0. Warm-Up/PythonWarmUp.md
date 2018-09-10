@@ -159,4 +159,20 @@ Complete **5** problems from this section.
 ### 3.1 babysitter_pay(startHour, startMin, endHour, endMin)
 A babysitter charges $2.50 an hour until 9:00 PM when the rate drops to $1.75 an hour (the children are in bed). Write a function `babysitter_pay(startHour, startMin, endHour, endMin)` that takes parameters starting time and ending time in hours and minutes and calculates the total babysitting bill. You may assume that the starting and ending times are in a single 24 hour period. Partial hours should be appropriately prorated. 
 
+### 3.2 in1to10(num, outsideMode)
+Given a number `num`, return True if `num` is in the range 1..10, inclusive. Unless `outsideMode` is True, in which case return True if the number is less or equal to 1, or greater or equal to 10.
 
+#### Examples
+
+`in1to10(5, False)` returns `True`
+`in1to10(11, False)` returns `False`
+`in1to10(11, True)` returns `True`
+
+### 3.3 alarmClock(day, vacationMode)
+
+Given a `day` of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean `vacationMode` indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+
+#### Example
+`alarmClock(1, False)` returns `'7:00'`
+`alarmClock(5, False)` returns `'7:00'`
+`alarmClock(0, False)` returns `'10:00'`
