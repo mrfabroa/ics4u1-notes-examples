@@ -42,7 +42,7 @@ Your range is 1364km.
 ```
 
 ### 1.3 otherSide(a,b,c)
-Write a `otherSide(a,b)` where parameters `a` and `b` represent the length of two sides of a triangle and `c` represents the contained angle. Use the cosine law to calculate the length of the  third side.  Hint: use the Math library.
+Write a `otherSide(a,b,c)` where parameters `a` and `b` represent the length of two sides of a triangle and `c` represents the contained angle. Use the cosine law to calculate the length of the  third side.  Hint: use the Math library.
 
 
 ### 1.4 wordCount()
@@ -186,7 +186,7 @@ Given two strings `a` and `b`, return True if either of the strings appears at t
 `end_other('abc', 'abXabc')` returns `True`
 
 
-#### 3.5 heat_cool_days()
+### 3.5 heat_cool_days()
 Heating and cooling degree-days are measures used by utility companies to estimate energy requirements. If the average temperature for a day is below 60, then the number of degrees below 60 is added to the heating degree-days. If the temperature is above 80, the amount over 80 is added to the cooling degree-days. Write a function `head_cool_days()` that prompts for a sequence of average daily temps (user enters 'end' to stop the sequence) and computes the running total of cooling and heating degree-days. The program should print these two totals after all the data has been processed. 
 
 #### Example Run:
@@ -210,3 +210,40 @@ The National Weather Service computes the windchill index using the following fo
 ```
 
 Where is T the temperature in degrees Fahrenheit, and V is the wind speed in miles per hour.  Write a function `wind_chill()` that prints a nicely formatted table of windchill values. Rows should represent wind speed for 0 to 50 in 5 mph increments, and the columns represent temperatures from -20 to +60 in 10-degree increments.
+
+### 3.7  magaran()
+An anagram of a string is formed by rearranging the letters in the string. For example, the anagrams
+of aab are aab, aba, and baa. A wildcard anagram of a string is an anagram of the string where some of the letters might havebeen replaced with an asterisk (*). For example, two possible wildcard anagrams of aab are *aband *b*.
+Given two strings, determine whether the second string is a wildcard anagram of the first string.
+
+#### Input Specification
+The two lines of input will both consist of N (1 ≤ N ≤ 100) characters. Each character in the first
+line will be a lowercase letter. Each character in the second line will be either a lowercase letter or
+an asterisk.
+
+Output the character A if the string on the second line is a wildcard anagram of the string on the
+first line. Otherwise, output the character N.
+
+#### Example
+*Sample Input 1*  
+```
+abba
+baaa
+```
+
+*Output for Sample Input 1*  
+```
+N
+```
+
+*Sample Input 2*  
+```
+cccrocks
+socc*rk*
+```
+*Output for Sample Input 2*  
+``
+A
+``
+
+
