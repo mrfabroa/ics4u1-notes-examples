@@ -184,3 +184,29 @@ Given two strings `a` and `b`, return True if either of the strings appears at t
 `end_other('Hiabc', 'abc')` returns `True`
 `end_other('AbC', 'HiaBc')` returns `True`
 `end_other('abc', 'abXabc')` returns `True`
+
+
+#### 3.5 heat_cool_days()
+Heating and cooling degree-days are measures used by utility companies to estimate energy requirements. If the average temperature for a day is below 60, then the number of degrees below 60 is added to the heating degree-days. If the temperature is above 80, the amount over 80 is added to the cooling degree-days. Write a function `head_cool_days()` that prompts for a sequence of average daily temps (user enters 'end' to stop the sequence) and computes the running total of cooling and heating degree-days. The program should print these two totals after all the data has been processed. 
+
+#### Example Run:
+```
+Enter a sequence of average daily temperatures, each on a new line.  Type in 'end' to end the sequence.
+55
+58
+73
+88
+68
+90
+end
+total cooling days: 7
+total heating days: 18
+```
+
+#### 3.6 wind_chill()
+The National Weather Service computes the windchill index using the following formula:  
+```
+35.74 + 0.6215T - 35.75(V**0.16) + 0.4275T(V**0.16)
+```
+
+Where is T the temperature in degrees Fahrenheit, and V is the wind speed in miles per hour.  Write a function `wind_chill()` that prints a nicely formatted table of windchill values. Rows should represent wind speed for 0 to 50 in 5 mph increments, and the columns represent temperatures from -20 to +60 in 10-degree increments.
