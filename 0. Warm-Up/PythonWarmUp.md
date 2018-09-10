@@ -199,8 +199,8 @@ Enter a sequence of average daily temperatures, each on a new line.  Type in 'en
 68
 90
 end
-total cooling days: 7
-total heating days: 18
+total heating days: 7
+total cooling days: 18
 ```
 
 #### 3.6 wind_chill()
