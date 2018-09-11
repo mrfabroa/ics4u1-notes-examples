@@ -257,7 +257,10 @@ Complete **5** problems from this section.
 * [3.6 Two-Dimensional Lists](https://docs.google.com/document/d/1LnnYRzqwqepZb8bSxA5WT_DxzZrwftx50bOePW9ol7Q/edit?usp=sharing)
 
 
-### 4.1 even_count(numList)
+### 4.1 avg_word_len(stringList)
+Write a function `avg_word_len(sentence)' that returns the average word length in a given `sentence`. Use the .split() function
+
+### 4.2 even_count(numList)
 Write a function `even_count(numList)` that returns the number of even ints in the given list `numList`. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
 
 ##### Example
@@ -265,13 +268,21 @@ Write a function `even_count(numList)` that returns the number of even ints in t
 `count_evens([2, 2, 0])` returns `3`
 `count_evens([1, 3, 5])` returns `0`
 
-### 4.2 big_diff(numList)
+### 4.3 big_diff(numList)
 Given a list `numList` of length 1 or more of ints, return the difference between the largest and smallest values in the list. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.
 
 ##### Example
 `big_diff([10, 3, 5, 6])` returns `7`
 `big_diff([7, 2, 10, 9])` returns `8`
 `big_diff([2, 10, 7, 2])` returns  `8`
+
+### 4.4 same_ends(n)
+Write a function `same_ends(numList, n)` that returns `True` if the group of `n` numbers at the start and end of the list `numList` are the same. For example, with [5, 6, 45, 99, 13, 5, 6], the ends are the same for n=0 and n=2, and false for n=1 and n=3. You may assume that n is in the range 0..length of `numList` inclusive.
+
+##### Example 
+`same_ends([5, 6, 45, 99, 13, 5, 6], 1)` returns `false`
+`same_ends([5, 6, 45, 99, 13, 5, 6], 2)` returns `true`
+`same_ends([5, 6, 45, 99, 13, 5, 6], 3)` returns `false`
 
 
 
