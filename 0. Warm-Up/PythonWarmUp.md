@@ -247,3 +247,31 @@ A
 ``
 
 
+### Section 4 - Lists
+Complete **5** problems from this section.
+#### Notes
+* [3.2 Introduction to Lists](https://docs.google.com/document/d/18AoOGSYo_8El_z2xFAEgHzc2l3Idzc--4YiN7-Zpl-Q/edit?usp=sharing)
+* [3.3 Processing Lists](https://docs.google.com/document/d/1UaIl2e6N_4ysNDMScvooRbJsMxDA6Ik4_bMXrQwFsAc/edit?usp=sharing)
+* [3.4 Related Lists](https://docs.google.com/document/d/14Za8No_XXRgMuQloQoynpFCJHqfDWn2ssWKqk_j4m6o/edit?usp=sharing)
+* [3.5 Sequences, Strings, and Lists](https://docs.google.com/document/d/1Dlf5bizLSAcnCJs9BsXu39r41A3FUXh0QQu1Zl2m_3s/edit?usp=sharing)
+* [3.6 Two-Dimensional Lists](https://docs.google.com/document/d/1LnnYRzqwqepZb8bSxA5WT_DxzZrwftx50bOePW9ol7Q/edit?usp=sharing)
+
+
+### 4.1 even_count(numList)
+Write a function `even_count(numList)` that returns the number of even ints in the given list `numList`. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
+
+##### Example
+`count_evens([2, 1, 2, 3, 4])` returns `3`
+`count_evens([2, 2, 0])` returns `3`
+`count_evens([1, 3, 5])` returns `0`
+
+### 4.2 big_diff(numList)
+Given a list `numList` of length 1 or more of ints, return the difference between the largest and smallest values in the list. Note: the built-in min(v1, v2) and max(v1, v2) functions return the smaller or larger of two values.
+
+##### Example
+`big_diff([10, 3, 5, 6])` returns `7`
+`big_diff([7, 2, 10, 9])` returns `8`
+`big_diff([2, 10, 7, 2])` returns  `8`
+
+
+
