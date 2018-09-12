@@ -284,5 +284,29 @@ Write a function `same_ends(numList, n)` that returns `True` if the group of `n`
 `same_ends([5, 6, 45, 99, 13, 5, 6], 2)` returns `true`  
 `same_ends([5, 6, 45, 99, 13, 5, 6], 3)` returns `false`  
 
+### 4.5 pair_check(n, list1_str, list2_str)
+The school is organizing a workshop with an activity involving pairs of students. They decided
+to assign partners ahead of time. You need to determine if they did this consistently. That is,
+whenever A is a partner of B, then B is also a partner of A, and no one is a partner of themselves.
 
+#### Input Specification
+The function consists of three parameters. The first parameter n is  consists of an integer n (1 < n ≤ 30), which is the number of students in the class. The second parameter `list1_str` contains the first string of names of the `n` students, separated by a space (Names contain only uppercase or lowercase letters, and no two students have the same first name). The third parameter `list2_str` has the same `n` names in some order.  
+The positions of the names in the last two parameters indicate the assignment of partners: the *ith* name in `list1_str` is the assigned partner of the *ith* name on the `list2_str`.
+
+#### Output Specification
+The output will be good if the two lists of names are arranged consistently, and bad if the arrangement
+of partners is not consistent.
+
+##### Example1
+`pair_check(4, "Ada Alan Grace John", "John Grace Alan Ada")` returns `good`  
+
+##### Explanation for Output for Example 1
+Ada and John are partners, and Alan and Grace are partners. This arrangement is consistent.
+
+##### Example 2
+`pair_check(7,"Rich Graeme Michelle Sandy Vlado Ron Jacob","Ron Vlado Sandy Michelle Rich Graeme Jacob")` returns `bad`
+
+##### Explanation for Output for Example 2
+Graeme is partnered with Vlado, but Vlado is partnered with Rich. This is not consistent. It is also
+inconsistent because Jacob is partnered with himself.
 
