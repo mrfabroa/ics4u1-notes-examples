@@ -310,3 +310,18 @@ Ada and John are partners, and Alan and Grace are partners. This arrangement is 
 Graeme is partnered with Vlado, but Vlado is partnered with Rich. This is not consistent. It is also
 inconsistent because Jacob is partnered with himself.
 
+### 4.6 balancing_act(numlist)
+Given a non-empty list `numlist`, return `True` if there is a place to split the list so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
+
+##### Examples
+`balancing_act([1, 1, 1, 2, 1])` returns `True`  
+`balancing_act([2, 1, 1, 2, 1])` returns `False`  
+`balancing_act([10, 10])` returns `True`  
+
+### 4.7 max_span(numList)
+Consider the leftmost and righmost appearances of some value in list of ints. We'll say that the "span" is the number of elements between the two inclusive. A single value has a span of 1. Returns the largest span found in the given list `numList`. 
+
+##### Examples
+`maxSpan([1, 2, 1, 1, 3])` returns `4`  
+`maxSpan([1, 4, 2, 1, 4, 1, 4])` returns `6`  
+`maxSpan([1, 4, 2, 1, 4, 4, 4])` returns `6`  
