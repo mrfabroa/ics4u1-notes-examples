@@ -11,7 +11,7 @@ All solutions are to be completed in your **"Python Warm-Up"** project in **repl
 Complete **5** problems from this section.
 
 #### Notes
-* [1.3 Printing and Comments](https://docs.google.com/document/d/1sjBpR6uY6Ql_1WsHPlO7bNg9fcVrcBwgXCBbapNlLqk/edit?usp=sharing)
+	* [1.3 Printing and Comments](https://docs.google.com/document/d/1sjBpR6uY6Ql_1WsHPlO7bNg9fcVrcBwgXCBbapNlLqk/edit?usp=sharing)
 * [1.4 Variables and Assignments](https://docs.google.com/document/d/1shqagy8wsR92B273K0uhtGXtroicG-1ZBqHFqb7z8Xc/edit?usp=sharing)
 * [1.5 Data Conversions and User Input](https://docs.google.com/document/d/1cM1GOW8rl7YLr1NSzpxw7vUxxz1TGcq6VqdZXK6DhAU/edit?usp=sharing)
 * [1.7 Built-In Functions and Libraries](https://docs.google.com/document/d/1N37lqdZqxQ8_0BLbhmZij2o82PZ2pM7lA9vnlsB_uFs/edit?usp=sharing)
@@ -164,9 +164,9 @@ Given a number `num`, return True if `num` is in the range 1..10, inclusive. Unl
 
 #### Examples
 
-`in1to10(5, False)` returns `True`
-`in1to10(11, False)` returns `False`
-`in1to10(11, True)` returns `True`
+`in1to10(5, False)` returns `True`  
+`in1to10(11, False)` returns `False`  
+`in1to10(11, True)` returns `True`  
 
 ### 3.3 alarmClock(day, vacationMode)
 
