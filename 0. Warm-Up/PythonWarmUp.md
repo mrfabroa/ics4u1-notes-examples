@@ -134,7 +134,7 @@ Write a function `strExplosion(word)`, given a non-empty string `word` like "Cod
 `strExplosion('ab')` returns `'aab'` 
 
 ### 2.6 ratRace(r1, r2) 
-Write a function `ratRace(rw, rt)` where parameters rw1 is the weight of a rat at the beginning of an experiment. The parameter rt is the rate that the rat's weight is expected to increase each week (for example, 4 percent per week). Return how many weeks it would take for the weight of the rat to become 25 percent heavier than it was originally.
+Write a function `ratRace(rw, rt)` where parameters `rw` is the weight of a rat at the beginning of an experiment. The parameter `rt` is the rate that the rat's weight is expected to increase each week (for example, 4 percent per week). Return how many weeks it would take for the weight of the rat to become 25 percent heavier than it was originally.
 
 ### 2.7 tripleCount(s)
 A "triple" in a string parameter `s` is a character appearing three times in a row. Write a function `tripleCount(s)` that returns the number of triples in the given string `s`. 
